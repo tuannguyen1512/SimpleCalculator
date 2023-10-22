@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonNumber">
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:onClick">numberAction</item>
+    </style>
+
+    <style name="buttonOperator">
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:backgroundTint">#CBCDD1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:onClick">operationAction</item>
+    </style>
+</resources>
